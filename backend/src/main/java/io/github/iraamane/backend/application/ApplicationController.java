@@ -8,7 +8,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/applications")
+@RequestMapping("/api/applications")
 public class ApplicationController {
 
     private final ApplicationService applicationService;
